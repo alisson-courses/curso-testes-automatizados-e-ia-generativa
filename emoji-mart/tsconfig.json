@@ -12,7 +12,12 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["cypress"]
   },
-  "include": ["**/*.ts"]
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/**/*.tsx",
+    "src"
+  ]
 }
